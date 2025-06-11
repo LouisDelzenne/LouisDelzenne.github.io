@@ -15,6 +15,8 @@ h2 {
 
 }
 
+
+
 * {
     font-family: Font1, sans-serif;
     color: var(--color2);
@@ -69,7 +71,7 @@ header a {
     text-transform: none;
     text-decoration: none;
     align-items: center;
-    color: blue;
+    color: var(--color2);
 }
 
 header a:hover {
