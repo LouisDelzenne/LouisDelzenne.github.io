@@ -340,4 +340,23 @@ header ul {
     .form-right p {
         font-size: 1.1rem;
     }
+
+    .mail {
+        width: 90%;
+        margin: 40px auto 0 auto;
+        padding: 20px 5px;
+        border-radius: 15px;
+        background: rgba(255, 255, 255, 0.95);
+        text-align: center;
+    }
+
+    .mail h2 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    .mail p {
+        font-size: 1.1rem;
+        margin: 10px 0;
+    }
 }
