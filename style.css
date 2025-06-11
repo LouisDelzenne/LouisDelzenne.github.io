@@ -142,6 +142,7 @@ header ul {
     width: 100%;
     text-align: center;
     margin-bottom: 30px;
+    font-size: 4rem;
 }
 
 .form-columns {
@@ -158,14 +159,6 @@ header ul {
     width: 60%;
     /* Ajuste la largeur pour un meilleur centrage */
 }
-
-.form-columns h3 {
-    font-size: 3rem;
-    width: 15%;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
 
 
 .form-left {
@@ -184,8 +177,9 @@ header ul {
     padding: 10px;
     margin: 20px;
     resize: none;
-    background-color: var(--color1);
+    background-color: var(--color2);
     align-items: center;
+    color: white;
 }
 
 .form-left button {
@@ -243,7 +237,8 @@ header ul {
     border: none;
     padding: 10px;
     margin: 20px;
-    background-color: var(--color1);
+    background-color: var(--color2);
+    color: white;
 }
 
 @media (max-width: 1080px) {
@@ -290,6 +285,11 @@ header ul {
         padding: 10px;
     }
 
+    .form h2 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+
     .form-columns {
         flex-direction: column-reverse;
         align-items: center;
@@ -321,13 +321,6 @@ header ul {
         margin: 10px 0;
         display: block;
         text-align: center;
-    }
-
-    .form-columns h3,
-    .form-left h3 {
-        font-size: 1.2rem;
-        width: 100%;
-        margin-bottom: 10px;
     }
 
     .form-right p {
