@@ -243,6 +243,18 @@ header ul {
     border: var(--color2) 1px solid;
 }
 
+.mail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.689);
+    width: 40%;
+    margin: auto;
+    border-radius: 5px;
+    border: 1px solid var(--color2);
+}
+
 @media (max-width: 1080px) {
     header ul {
         flex-direction: column;
