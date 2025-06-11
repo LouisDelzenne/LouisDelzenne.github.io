@@ -177,9 +177,10 @@ header ul {
     padding: 10px;
     margin: 20px;
     resize: none;
-    background-color: var(--color2);
+    background-color: white;
     align-items: center;
-    color: white;
+    color: rgb(0, 0, 0);
+    border: var(--color2) 1px solid;
 }
 
 .form-left button {
@@ -237,8 +238,9 @@ header ul {
     border: none;
     padding: 10px;
     margin: 20px;
-    background-color: var(--color2);
-    color: white;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border: var(--color2) 1px solid;
 }
 
 @media (max-width: 1080px) {
