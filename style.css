@@ -247,12 +247,14 @@ header ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    margin: 60px auto 0 auto;
+    padding: 30px 20px;
+    max-width: 500px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+    box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.08);
     text-align: center;
-    background: rgba(255, 255, 255, 0.689);
-    width: 40%;
-    margin: auto;
-    border-radius: 5px;
-    border: 1px solid var(--color2);
 }
 
 @media (max-width: 1080px) {
@@ -273,7 +275,6 @@ header ul {
 @media (max-width: 700px) {
     header img {
         width: 100%;
-        height: 200px;
     }
 
     header ul {
@@ -358,5 +359,9 @@ header ul {
     .mail p {
         font-size: 1.1rem;
         margin: 10px 0;
+    }
+
+    .mail img {
+        width: 80%;
     }
 }
