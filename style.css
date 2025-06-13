@@ -303,6 +303,11 @@ header ul {
     margin-top: 20px;
 }
 
+.climatisation button:hover {
+    background-color: #ff9900;
+    transition: 0.5s;
+    scale: 1.05;
+}
 
 @media (max-width: 1080px) {
     header ul {
