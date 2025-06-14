@@ -8,11 +8,13 @@
     src: url(./Roboto-VariableFont_wdth\,wght.ttf);
 }
 
-h1,
-h2 {
+h1 {
     text-align: center;
+}
 
-
+h3 {
+    text-align: center;
+    font-size: 1.5rem;
 }
 
 img {
@@ -31,7 +33,7 @@ img {
 
 body {
     background: linear-gradient(135deg, #cceeff, #99ddff, #66ccff, #33bbff, #00aaff) no-repeat fixed;
-    padding-top: 400px;
+    padding-top: 350px;
     /* ajuste selon la hauteur de ta nav pour éviter que le contenu passe dessous */
 }
 
@@ -40,63 +42,9 @@ body::selection {
     color: black;
 }
 
-header {
-    animation: header 1s ease-in-out;
-    user-select: none;
-}
-
-@keyframes header {
-    0% {
-        transform: scale(0);
-        /* Départ de l'animation */
-    }
-
-    100% {
-        transform: scale(1);
-        /* Fin de l'animation */
-    }
-}
 
 nav {
     margin-bottom: 60px;
-}
-
-header li {
-    display: inline-block;
-    margin: 0 100px;
-    align-items: center;
-    text-decoration: none;
-
-}
-
-header li:hover {
-    transform: scale(1.2);
-    transition: 0.5s;
-
-}
-
-header a {
-    font-size: 1.5rem;
-    text-transform: none;
-    text-decoration: none;
-    align-items: center;
-    color: var(--color2);
-}
-
-header a:hover {
-    color: var(--color1);
-    transition: 0.5s;
-}
-
-header ul {
-    display: flex;
-    justify-content: center;
-    gap: 150px;
-    /* ajuste la valeur selon l'espacement désiré */
-    padding: 0;
-    list-style: none;
-    margin-top: 100px;
-    margin-left: 100px;
 }
 
 .devis {
@@ -543,41 +491,24 @@ nav img {
     }
 }
 
-@media (max-width: 1080px) {
-    header ul {
-        flex-direction: column;
-        align-items: center;
-        gap: 30px;
-        margin-top: 30px;
-        margin-left: 0;
-    }
 
-    header li {
-        margin: 10px 0;
-    }
-}
 
 /* Responsive pour mobile */
 @media (max-width: 700px) {
-    header img {
-        width: 100%;
+    body {
+        padding-top: 250px;
+        /* Ajuste la hauteur de la nav pour mobile */
     }
 
-    header ul {
-        flex-direction: column;
-        align-items: center;
-        gap: 30px;
-        margin-top: 30px;
-        margin-left: 0;
-    }
-
-    header li {
-        margin: 10px 0;
+    .presentation {
+        width: 80%;
+        padding: 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
 
     .devis {
         width: 90%;
-        margin-top: 20px;
         padding: 15px;
     }
 
