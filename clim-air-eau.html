@@ -10,22 +10,23 @@
 </head>
 
 <body>
-    <header>
-
-        <h1><img src="./IMAGES/ChatGPT_Image_20_mai_2025__17_10_54-removebg-preview.png" alt=""> </h1>
-
-        <h2>Votre spécialiste en technique de froid et ventilation</h2>
-        <nav>
-            <ul>
-                <li><a href="./index.html">Accueil</a></li>
-                <li><a href="./Nosdevis.html">Demande de devis</a></li>
-                <li><a href="./Quidommenous.html">Qui sommes nous?</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="nav">
+        <div class="logo">
+            <img src="./IMAGES/ChatGPT_Image_20_mai_2025__17_10_54-removebg-preview.png" alt="Logo">
+        </div>
+        <input type="checkbox" id="menu-toggle" class="menu-checkbox" />
+        <label for="menu-toggle" class="menu-icon">
+            <img src="./IMAGES/barre-de-menu.png" alt="Menu">
+        </label>
+        <ul class="menu-list">
+            <li><a href="./Nosdevis.html">Demande de devis</a></li>
+            <li><a href="./index.html">Accueil</a></li>
+            <li><a href="./Quidommenous.html">Qui sommes nous?</a></li>
+        </ul>
+    </div>
     <div class="p-air-eau">
         <p>
-        <h2>Fonctionnement d'une climatisation air/air</h2>
+        <h2>Fonctionnement d'une climatisation air/eau</h2>
         Fonctionnement d’une pompe à chaleur air/eau
         Principe général :
         La pompe à chaleur air/eau (PAC air/eau) récupère la chaleur de l’air extérieur et la transfère à un circuit
@@ -64,6 +65,9 @@
         <br>
         💰 Aides financières possibles (MaPrimeRénov’, CEE, etc.).
         </p>
+    </div>
+    <div class="button">
+        <a href="./Nosdevis.html"><button>Demandez votre devis gratuitement!</button></a>
     </div>
 </body>
 
