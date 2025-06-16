@@ -464,6 +464,39 @@ nav img {
 
 }
 
+.travaux-section {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.travaux-titre {
+    margin-bottom: 24px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.travaux {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.travaux img {
+    width: 100%;
+    height: auto;
+    /* fixe la hauteur pour toutes */
+    object-fit: cover;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
 /* Responsive : afficher le menu burger sous 700px */
 @media (max-width: 700px) {
     .menu-icon {
@@ -528,6 +561,18 @@ nav img {
     body {
         padding-top: 250px;
         /* Ajuste la hauteur de la nav pour mobile */
+    }
+
+    .travaux {
+        display: block;
+
+    }
+
+    .travaux img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+        /* Ajuste la taille des images pour mobile */
     }
 
     .p-air-eau,
