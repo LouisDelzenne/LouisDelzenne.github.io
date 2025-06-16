@@ -430,11 +430,10 @@ nav img {
 }
 
 .facebook img {
-    height: auto;
     margin: 0;
     position: absolute;
     width: 5%;
-    height: 87px;
+    height: 90px;
     top: 0;
     right: 0;
 
@@ -485,6 +484,12 @@ nav img {
     width: 100%;
     max-width: 700px;
     margin: 0 auto;
+}
+
+.travaux img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
 }
 
 .travaux img {
