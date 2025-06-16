@@ -388,6 +388,12 @@ nav img {
     transition: 1s;
 }
 
+.menu-list :hover {
+    color: var(--color1);
+
+
+}
+
 .menu-icon {
     cursor: pointer;
     margin-left: 20px;
@@ -416,6 +422,22 @@ nav img {
     /* Mets la taille que tu veux */
     height: auto;
     display: block;
+}
+
+.facebook {
+    margin: 0;
+
+}
+
+.facebook img {
+    height: auto;
+    margin: 0;
+    position: absolute;
+    width: 5%;
+    height: 87px;
+    top: 0;
+    right: 0;
+
 }
 
 /* Afficher la nav normale sur desktop */
@@ -451,6 +473,13 @@ nav img {
         justify-content: center;
         margin-right: 20px;
 
+    }
+
+    .facebook img {
+        width: 40px;
+        height: 40px;
+        display: block;
+        margin: 0 auto;
     }
 
     .nav {
@@ -499,6 +528,17 @@ nav img {
     body {
         padding-top: 250px;
         /* Ajuste la hauteur de la nav pour mobile */
+    }
+
+    .p-air-eau,
+    .p-air-air {
+        width: 80%;
+        padding: 20px;
+        margin: 20px auto;
+        text-align: center;
+        font-size: 1rem;
+        margin-top: -70px;
+        margin-bottom: 50px;
     }
 
     .presentation {
